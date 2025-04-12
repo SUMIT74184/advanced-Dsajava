@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Implentation",
+      "request": "launch",
+      "mainClass": "BinaySearchTree.Implentation",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
       "name": "AlgoTree",
       "request": "launch",
       "mainClass": "TreeIterativeApproach.AlgoTree",
