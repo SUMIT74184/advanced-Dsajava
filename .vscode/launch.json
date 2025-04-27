@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "powerOfTwo",
+      "request": "launch",
+      "mainClass": "Maths.powerOfTwo",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "imp",
+      "request": "launch",
+      "mainClass": "Maths.imp",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
       "name": "Implentation",
       "request": "launch",
       "mainClass": "BinaySearchTree.Implentation",
