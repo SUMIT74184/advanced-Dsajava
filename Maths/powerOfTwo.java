@@ -43,6 +43,8 @@ public class powerOfTwo {
     System.out.println("counting the number of 1s");
     PrintSetBit(67);
     NoOfSetBits(67);
+
+    
   }
 
 }
