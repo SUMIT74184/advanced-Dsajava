@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StBufferAndStBuilder",
+      "request": "launch",
+      "mainClass": "strings.StBufferAndStBuilder",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
       "name": "CharacterConv",
       "request": "launch",
       "mainClass": "Maths.CharacterConv",
