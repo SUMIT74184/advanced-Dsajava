@@ -108,6 +108,8 @@ public class StBufferAndStBuilder {
     StringBuffer sb1 = new StringBuffer("hello");
     StringBuffer sb2=new StringBuffer("hello");
 
+    sb2.append("hii");
+
     System.out.println(sb1.toString().equals(sb2.toString()));
 
   }
