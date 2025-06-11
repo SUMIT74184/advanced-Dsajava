@@ -24,7 +24,7 @@ public class CycleDirectedDfs {
         }
       }
     }
-
+//what if the cycle is never started
     pathVisited[src]=false;
     return false;
   }
