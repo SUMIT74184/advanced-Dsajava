@@ -10,13 +10,14 @@ public class CycleDirectedDfs {
   public boolean checkCycle(int src,boolean[]visited,ArrayList<ArrayList<Integer>>adj,boolean[]pathVisited){
     visited[src]=true;
     pathVisited[src]=true;
-    
+    //checking the cycle in the graph
     for(int neighbour:adj.get(src)){
       if(pathVisited[neighbour]){
         return true;
       }else if(visited[neighbour]){
         continue;
       }else{
+
         //actual dfs call
         if(checkCycle(neighbour, visited, adj, pathVisited)){
           return true;
