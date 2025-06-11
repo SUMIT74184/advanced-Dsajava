@@ -1,0 +1,133 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "StBufferAndStBuilder",
+      "request": "launch",
+      "mainClass": "strings.StBufferAndStBuilder",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "CharacterConv",
+      "request": "launch",
+      "mainClass": "Maths.CharacterConv",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "powerOfTwo",
+      "request": "launch",
+      "mainClass": "Maths.powerOfTwo",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "imp",
+      "request": "launch",
+      "mainClass": "Maths.imp",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "Implentation",
+      "request": "launch",
+      "mainClass": "BinaySearchTree.Implentation",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "AlgoTree",
+      "request": "launch",
+      "mainClass": "TreeIterativeApproach.AlgoTree",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "MyCompare",
+      "request": "launch",
+      "mainClass": "OopsAdvanceConcept.MyCompare",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "MyGeneric",
+      "request": "launch",
+      "mainClass": "OopsAdvanceConcept.MyGeneric",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "DFSbinaryTree",
+      "request": "launch",
+      "mainClass": "TreeSeriesJava.DFSbinaryTree",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "disjoint",
+      "request": "launch",
+      "mainClass": "DisJointSet.disjoint",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "BellManFordalgo",
+      "request": "launch",
+      "mainClass": "ShortestPathAlgo.BellManFordalgo",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "Dijkstraalgo",
+      "request": "launch",
+      "mainClass": "ShortestPathAlgo.Dijkstraalgo",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "TopoLogicalSortDfs",
+      "request": "launch",
+      "mainClass": "GraphQuestions.TopoLogicalSortDfs",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "TopologicalSort",
+      "request": "launch",
+      "mainClass": "GraphQuestions.TopologicalSort",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "cycleDfs",
+      "request": "launch",
+      "mainClass": "GraphQuestions.cycleDfs",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "cycle",
+      "request": "launch",
+      "mainClass": "GraphQuestions.cycle",
+      "projectName": "JavaInterview-sql_27c65d11"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "question",
+      "request": "launch",
+      "mainClass": "question",
+      "projectName": "JavaInterview-sql_27c65d11"
+    }
+  ]
+}
