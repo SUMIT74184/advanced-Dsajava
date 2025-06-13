@@ -64,7 +64,7 @@ public class ImplementingQueue{
             front++;
         }
         size--;
-
+        System.out.println("the value of dequeue" + val);
         return val;
     }
 
@@ -111,6 +111,7 @@ public class ImplementingQueue{
         System.out.println("Is queue full? " + myQueue.isFull());
 
         // Dequeue two elements
+        System.out.println("value of removed ones" +myQueue.dequeue());
         System.out.println("Dequeued: " + myQueue.dequeue());
         System.out.println("Dequeued: " + myQueue.dequeue());
 
