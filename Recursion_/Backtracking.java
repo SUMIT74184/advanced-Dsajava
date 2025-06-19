@@ -5,9 +5,7 @@ import java.util.List;
 
 public class Backtracking {
     //permutation of string
-    class Solution {
-
-        public void solve(int nums[],int index,List<List<Integer>>res){
+          public void solve(int nums[],int index,List<List<Integer>>res){
             int n=nums.length;
 
             if(index==n-1){
@@ -41,5 +39,9 @@ public class Backtracking {
             solve(nums,0,res);
             return res;
         }
+
+    public static void main(String[] args) {
+
     }
-}
+    }
+
