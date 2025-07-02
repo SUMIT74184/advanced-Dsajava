@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -42,6 +43,16 @@ public class InterviewEssentialis {
         Supplier<Double>randomNumber=()->Math.random()*200;
         System.out.println(randomNumber.get());
 
-
+        List<Integer>mylist=new ArrayList<>();
+        mylist.add(12);
+        mylist.add(23);
+        mylist.add(45);
+        mylist.add(67);
+        int k=2;
+        int kthelement=0;
+        for(int i=0;i<mylist.size();i++){
+            kthelement=mylist.get(k-1);
+            System.out.println(kthelement);
+        }
     }
 }

@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -42,6 +43,54 @@ public class StringQuestions {
 
 
         //indexing in the string
+        String apples="Apples";
+        char firsCharacter=apples.charAt(0);
+        System.out.println(firsCharacter);
+
+
+        System.out.println(apples.indexOf('e'));
+
+
+        String sub=apples.substring(2,5);
+        System.out.println(sub);
+
+
+        System.out.println(apples.contains("pp"));
+
+        char[] applesArray=apples.toCharArray();
+        System.out.println(applesArray[4]);
+
+
+        String text="Welcome to Java programming."+
+                "Ebola vaccine protects against Zaire ebolavirus."+
+                "PM25 in Britain is below 10 µg/m³ in some areas."+
+                "Melanin levels vary across ethnicities.";
+
+        String [] sentences=text.split("\\.");
+        System.out.println("The text has " + sentences.length+ " sentences.");
+
+        String[] words=text.split("\\W+");
+        System.out.println("The text has " + words.length +" words");
+
+        System.out.println(Arrays.asList(words));
+
+
+//
+    String objA=new String("abc");
+    String objB=new String("abc");
+
+            String literalA="abc";
+            String literalB="abc";
+
+        System.out.println("  string equality");
+        System.out.println(literalA.equals(literalB));
+
+
+
+
+
+                ;
+
 
 
     }
