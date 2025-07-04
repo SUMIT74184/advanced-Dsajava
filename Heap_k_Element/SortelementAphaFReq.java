@@ -19,8 +19,6 @@ public class SortelementAphaFReq {
         }
     }
 
-
-
     class Solution {
         public String frequencySort(String s) {
 
@@ -29,6 +27,8 @@ public class SortelementAphaFReq {
             for(char ch : s.toCharArray()){
                 freqmap.put(ch,freqmap.getOrDefault(ch,0)+1);
             }
+
+
             PriorityQueue<Element> pq=new PriorityQueue<>();
 
             for(Map.Entry<Character,Integer>entry : freqmap.entrySet()){
