@@ -16,7 +16,7 @@ public class TopoLogicalSortDfs {
   }
 
   public static int[] topoSortDfs(int V, ArrayList<ArrayList<Integer>> adj) {
-    // whenver the dfs call is over for the node then only the node is added to the
+    // whenever the dfs call is over for the node then only the node is added to the
     // stack
     // otherwise the nodes having child will be entered first according to the dfs
     // call
