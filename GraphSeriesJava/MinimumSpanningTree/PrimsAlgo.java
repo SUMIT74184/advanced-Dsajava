@@ -12,10 +12,10 @@ public class PrimsAlgo {
     });
     int sum=0;
     ArrayList<int[]>edges=new ArrayList<>();//not necessary
-    boolean visited[]=new boolean[V];
+    boolean []visited=new boolean[V];
     pq.offer(new int []{-1,0,0});
     while(!pq.isEmpty()){
-      int object[]=pq.poll();
+      int []object=pq.poll();
       int parent=object[0];
       int node=object[1];
       int wt=object[2];
@@ -26,7 +26,7 @@ public class PrimsAlgo {
         sum+=wt;
       }
       //now iterate to the neighbour nodes coz current node is stored
-      for(int neighbourObject[]:adj.get(node)){
+      for(int []neighbourObject:adj.get(node)){
         int neighbourNode=neighbourObject[0];
         int neighbourwt=neighbourObject[1];
         if(!visited[neighbourNode]){

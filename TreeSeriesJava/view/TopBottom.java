@@ -77,6 +77,7 @@ public class TopBottom {
       // }
       if (node.left != null) {
         queue.offer(new CustomNode(node.left, col - 1));
+
       }
 
       if (node.right != null) {

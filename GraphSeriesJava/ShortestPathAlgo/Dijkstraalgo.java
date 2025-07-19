@@ -27,7 +27,6 @@ public class Dijkstraalgo {
       int d = pair[1];
 
       if (d > dist[u]) continue;
-
       for (int[] neighbour : adj.get(u)) {
         int v = neighbour[0];
         int w = neighbour[1];

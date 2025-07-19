@@ -38,6 +38,22 @@ public class BfsBinary {
   }
 
   public static void main(String[] args) {
+    BfsBinary tree = new BfsBinary();
 
+    // Creating nodes manually
+    TreeNode<Integer> root = tree.new TreeNode<>(20);
+    root.left = tree.new TreeNode<>(5);
+    root.right = tree.new TreeNode<>(7);
+    root.left.left = tree.new TreeNode<>(9);
+    root.left.right = tree.new TreeNode<>(8);
+    root.right.left = tree.new TreeNode<>(10);
+    root.right.right = tree.new TreeNode<>(15);
+
+    // Performing BFS traversal
+    ArrayList<Integer> result = tree.Bfs(root);
+
+    // Printing result
+    System.out.println("BFS Traversal: " + result);
   }
+
 }
