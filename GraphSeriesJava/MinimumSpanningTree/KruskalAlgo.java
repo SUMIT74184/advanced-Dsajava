@@ -20,7 +20,7 @@ public class KruskalAlgo {
     DisJointSet dsu = new DisJointSet(V);
     int sum = 0;
     while (!pq.isEmpty()) {
-      int object[] = pq.poll();
+      int []object = pq.poll();
       int u = object[0];
       int v = object[1];
       int wt = object[2];
