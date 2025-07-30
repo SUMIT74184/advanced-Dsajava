@@ -9,20 +9,21 @@ public class Dijkstraalgo {
 
   public static int[] dijkstra(int V, ArrayList<ArrayList<int[]>> adj, int S) {
 
-    //custom comparator which will help to compare between two distances in the prority queue
+    //custom comparator which will help to compare between two distances in the priority queue....
     PriorityQueue<int[]> pq = new PriorityQueue<>(new Comparator<int[]>() {
-      public int compare(int p1[], int p2[]) {
-        return p1[1] - p2[1];       }
+      public int compare(int []p1, int []p2) {
+        return p1[1] - p2[1];
+      }
     });
 
-    int dist[] = new int[V];
+    int []dist = new int[V];
     Arrays.fill(dist, Integer.MAX_VALUE);
     dist[S] = 0;
 
     pq.offer(new int[] { S, 0 });
 
     while (!pq.isEmpty()) {
-      int pair[] = pq.poll();
+      int []pair = pq.poll();
       int u = pair[0];
       int d = pair[1];
 
