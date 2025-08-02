@@ -20,9 +20,8 @@ public class Dijkstra {
             int[] pair = pq.poll();
             int u = pair[0];
             int d = pair[1];
-
-            if (d > dist[u]) continue;
-
+            if (d > dist[u])
+                continue;
             for (ArrayList<Integer> neighbour : adj.get(u)) {
                 int v = neighbour.get(0);
                 int w = neighbour.get(1);
