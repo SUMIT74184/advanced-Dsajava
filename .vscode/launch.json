@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestWord",
+      "request": "launch",
+      "mainClass": "strings.LongestWord",
+      "projectName": "advanceDsa_84df6d4"
+    },
+    {
+      "type": "java",
+      "name": "countVowelsConsonant",
+      "request": "launch",
+      "mainClass": "strings.countVowelsConsonant",
+      "projectName": "advanceDsa_84df6d4"
+    },
+    {
+      "type": "java",
+      "name": "checkOnlyDigStr",
+      "request": "launch",
+      "mainClass": "strings.checkOnlyDigStr",
+      "projectName": "advanceDsa_84df6d4"
+    },
+    {
+      "type": "java",
+      "name": "FirstNon_repeatedChar",
+      "request": "launch",
+      "mainClass": "strings.FirstNon_repeatedChar",
+      "projectName": "advanceDsa_84df6d4"
+    },
+    {
+      "type": "java",
+      "name": "checkTwoStringAnagram",
+      "request": "launch",
+      "mainClass": "strings.checkTwoStringAnagram",
+      "projectName": "advanceDsa_84df6d4"
+    },
+    {
+      "type": "java",
+      "name": "DuplicateCharacters",
+      "request": "launch",
+      "mainClass": "strings.DuplicateCharacters",
+      "projectName": "advanceDsa_84df6d4"
+    },
+    {
+      "type": "java",
       "name": "StBufferAndStBuilder",
       "request": "launch",
       "mainClass": "strings.StBufferAndStBuilder",
