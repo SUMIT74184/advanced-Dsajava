@@ -43,6 +43,7 @@ public class doublylinkedlist {
 
     }
 
+    @SuppressWarnings("unchecked")
     public void insertTail(int data){
         DoublyNode<Integer>newNode=new DoublyNode<>(data);
 

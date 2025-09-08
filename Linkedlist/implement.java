@@ -1,15 +1,5 @@
 package Linkedlist;
-
-public class implement {
-    Node<Integer> head;
-    int size;
-
-    implement() {
-        this.head = null;
-        this.size = 0;
-    }
-
-    class Node<T> {
+  class Node<T> {
         T data;
         Node next;
 
@@ -24,6 +14,17 @@ public class implement {
 
         }
     }
+
+public class implement {
+    Node<Integer> head;
+    int size;
+
+    implement() {
+        this.head = null;
+        this.size = 0;
+    }
+
+  
 
     public void insertNode(int data, int pos) {
         if (pos > size + 1 || pos <= 0) {
