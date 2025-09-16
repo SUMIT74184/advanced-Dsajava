@@ -1,4 +1,4 @@
-package BInarySearchALgo;
+package BinarySearchAdvance;
 
 public class KokoEatingBananas {
 
