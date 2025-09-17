@@ -8,7 +8,6 @@ public class AllocateMinimumPages {
         if(books.length< students){
             return -1;
         }
-
         //range will be the max of the array
 //        and the sum of the array
         int start=Integer.MIN_VALUE;
@@ -20,7 +19,6 @@ public class AllocateMinimumPages {
            }
            end=end+books[i];
         }
-
         while(start<=end){
             //max pages that can be allocated to single students
             int mid=start+(end-start)/2;
@@ -31,32 +29,25 @@ public class AllocateMinimumPages {
                 start=mid+1;
             }
         }
-
-
         return res;
-
         //we have to find the combination
     }
-
-    public static boolean isAllocationpossible(int books[],int maxPages,int stidents){
+    public static boolean isAllocationpossible(int []books,int maxPages,int students){
         int currentStudents=1;
         int pages=0;
         for(int i=0;i<books.length;i++){
             pages+=books[i];
 
-            if (pages>maxPages){
+            if (pages>maxPages){ //whenever the mid value gets bigger we need the new Student
                 currentStudents+=1;
                 pages=books[i];
             }
-
-            if(currentStudents>stidents){
+            if(currentStudents>students){
                 return false;
             }
         }
         return true;
     }
-
-
     public static void main(String[] args) {
 
     }
