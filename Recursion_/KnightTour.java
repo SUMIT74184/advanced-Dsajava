@@ -36,8 +36,9 @@ public class KnightTour {
     }
 
     public static  void printsol(int sol[][]){
-        for(int i=0;i< sol.length;i++){
-            for(int j=0;j< sol[i].length;j++){
+        int N= sol.length;
+        for(int i=0;i< N;i++){
+            for(int j=0;j<N;j++){
                 System.out.print(sol[i][j]+ " ");
             }
             System.out.println();
