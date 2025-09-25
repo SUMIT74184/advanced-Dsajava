@@ -8,7 +8,6 @@ public class CountPSq {
         while (start <= end) {
             int mid = start + (end - start) / 2;
             if (mid <= x / mid) {
-
                 if (x % mid == 0 && mid == x / mid) {
                     return mid;
                 }
@@ -17,7 +16,7 @@ public class CountPSq {
                 end = mid - 1;
             }
         }
-//        return end; now we want the ciel value not the floor
+//return end; now we want the ciel value not the floor
         return start;
     }
     static int countSquares(int N){

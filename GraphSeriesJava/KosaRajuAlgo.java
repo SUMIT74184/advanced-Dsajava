@@ -25,6 +25,7 @@ public class KosaRajuAlgo {
       }
     }
   }
+
   public int KosaRaju(int V,ArrayList<ArrayList<Integer>>adj){
     boolean []vis=new boolean[V];
     Stack<Integer>st=new Stack<>();
@@ -74,5 +75,6 @@ public static void main(String[] args) {
   KosaRajuAlgo obj = new KosaRajuAlgo();
   int sccCount = obj.KosaRaju(V, adj);
   System.out.println("Number of Strongly Connected Components: " + sccCount);
-}
+  }
+
 }
