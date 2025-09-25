@@ -27,7 +27,6 @@ public class SearchInRotated {
                 }
 
             }
-
         }
         return ans;
     }
