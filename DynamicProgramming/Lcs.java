@@ -61,7 +61,7 @@ public class Lcs {
 
 
         for(int i=1;i<n+1;i++){
-            for(int j=0;j<m+1;j++){
+            for(int j=1;j<m+1;j++){
                 if(t1.charAt(i-1)==t2.charAt(j-1)){ //shifting logic
             dp[i][j]=1+dp[i-1][j-1];
 
@@ -73,6 +73,18 @@ public class Lcs {
         }
             }
         }
+        print(dp);
         return dp[n][m];
+    }
+
+    public void print(int [][]dp){
+        int n= dp.length;
+        int m=dp[0].length;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                System.out.println(dp[i][j]+" ,");
+            }
+            System.out.println();
+        }
     }
 }
