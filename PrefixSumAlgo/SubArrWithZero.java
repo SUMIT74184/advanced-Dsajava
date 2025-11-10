@@ -26,13 +26,18 @@ public class SubArrWithZero {
         for(int num:arr){
             sum+=num;
 
+            //counting the occurrence of the sum
             if(prefcount.containsKey(sum)){
                 count+=prefcount.get(sum);
             }
-
+            //storing the sum if it appear for the first time
             prefcount.put(sum,prefcount.getOrDefault(sum,0)+1);
         }
         return count;
+    }
+
+    public static void main(String[] args) {
+
     }
 
 }
