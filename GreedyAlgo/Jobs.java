@@ -14,6 +14,7 @@ public class Jobs {
         int assignedJob[]=new int[n+1];
         Arrays.fill(assignedJob,-1);
         int len= profit.length;
+
         Integer []index=new Integer[len];
         for(int i=0;i<len;i++){
             index[i]=i;
@@ -21,6 +22,7 @@ public class Jobs {
         int count=0;
         int maxProfit=0;
         Arrays.sort(index,(a,b)->profit[b]-profit[a]);
+
         for(int i=0;i<len;i++){
             int ind=index[i];
             int d=deadline[ind];
